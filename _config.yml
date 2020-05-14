@@ -1,11 +1,11 @@
 # site settings
 title: Forty
 subtitle: Test!
-email: youremailaddress@gmail.com
+email: nicholas@nchan.me
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
-author:
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+author: Nicholas
 street_address: 1234 Somewhere Road
 city: Nashville
 state: TN
@@ -34,3 +34,7 @@ markdown: kramdown
 
 sass:
   style: compressed
+
+
+theme: forty_jekyll_theme
+destination: public
